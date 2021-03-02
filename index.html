@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validación DNI</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="archivo.js"></script>
+</head>
+<body>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <img src="https://cdn.pixabay.com/photo/2015/02/28/00/52/spain-653008_960_720.png" alt=""> 
+    <form>
+         
+        <fieldset id="datos">
+            <legend>Validación letra del Documento Nacional de Identidad</legend>
+            <label for="numero">Introduzca su número de DNI:</label><input type="text" id="numero" pattern="[0-9]{8}"  required><br/>
+            <label for="letra">Introduzca la letra de su DNI: </label><input type="text" id="letra" maxlength="1" pattern="[A-Za-z]" required><br/>
+        </fieldset>
+        <br/>
+        <button id="boton" type="button" onclick="validar();">Validar</button>
+    </form>
+    <p id="resultado"></p>
+    <p id="validacion"></p>
+    
+</body>
+</html>

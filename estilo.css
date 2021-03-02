@@ -1,0 +1,35 @@
+body{
+    background.color: ivory; 
+    font-family: arial
+}
+form fieldset{
+    background-color: lightgray;
+    border: 1px dotted #999;
+    width:500px;
+    justify-content: center;
+    margin-left:100px;
+}
+form legend{
+    background-color:lavender;
+    border: solid 1px;
+    align-self: center;
+    font-family: Constantia;
+    font-size:large;
+}
+#letra{
+    width:25px;
+}
+img{
+    width: 60px; height: 100px;
+    float:left;
+    margin:0px 30px 15px 0px;
+}
+form button{
+    margin-left:400px;
+    font-weight: 300px;
+    padding:3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
